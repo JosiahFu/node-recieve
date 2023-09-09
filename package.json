@@ -1,0 +1,27 @@
+{
+  "name": "recieve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "src/",
+    "dist/"
+  ],
+  "devDependencies": {
+    "@types/formidable": "^3.4.2",
+    "@types/node": "^20.6.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "formidable": "^3.5.1"
+  }
+}
